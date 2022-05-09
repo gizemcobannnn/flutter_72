@@ -54,7 +54,7 @@ Bootcamp 72
 - **Sprint board update**: Sprint board screenshotları: 
 ![Backlog 1](https://github.com/gizemcobannnn/flutter_72/blob/ea16b145ac61e9ed178564db54f0e2ab64597f8c/Bootcamp72Scrum-main/ProjectManagement/Sprint1Documents/productbacklog1.png) 
 ![Backlog 2](https://github.com/gizemcobannnn/flutter_72/blob/ea16b145ac61e9ed178564db54f0e2ab64597f8c/Bootcamp72Scrum-main/ProjectManagement/Sprint1Documents/productbacklog2.png) 
-![Backlog 3] 
+![Backlog 2](https://github.com/gizemcobannnn/flutter_72/blob/main/Bootcamp72Scrum-main/ProjectManagement/Sprint1Documents/productbacklog3.png) 
 
 - **Ürün Durumu**: Plan aşamasındadır. 2. Sprint'te somut hale gelecektir.
 
