@@ -36,7 +36,7 @@ Bootcamp 72
 
 ## Product Backlog URL
 
-[Miro Backlog Board](https://app.asana.com/0/1202215990703336/board)
+[Asana Backlog Board](https://app.asana.com/0/1202215990703336/board)
 
 ---
 
