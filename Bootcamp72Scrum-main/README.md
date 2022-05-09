@@ -52,9 +52,7 @@ Bootcamp 72
 ![Backlog 1](https://github.com/gizemcobannnn/flutter_72/blob/ea16b145ac61e9ed178564db54f0e2ab64597f8c/Bootcamp72Scrum-main/ProjectManagement/Sprint1Documents/productbacklog1.png) 
 ![Backlog 2](https://github.com/gizemcobannnn/flutter_72/blob/ea16b145ac61e9ed178564db54f0e2ab64597f8c/Bootcamp72Scrum-main/ProjectManagement/Sprint1Documents/productbacklog2.png) 
 
-- **Ürün Durumu**: Ekran görüntüleri:
-  ![Screenshot 1]()
-  ![Screenshot 2]()
+- **Ürün Durumu**: Plan aşamasındadır. 2. Sprint'te somut hale gelecektir.
 
 - **Sprint Review**: 
 Alınan kararlar: Product Backlog'daki maddeler öncelik sırasına konmuş ve gereksiz maddeler çıkarılarak güncellenmiştir. Stabil bir ulaşım kanalı seçilmiştir.  Sprint Review katılımcıları: Gizem Çoban, Zeynep Yaşa, Sümeyye Büşra Şanlı, Gencer Varol, Osman Nuri Ereser
