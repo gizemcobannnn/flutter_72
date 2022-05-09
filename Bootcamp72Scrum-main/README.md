@@ -41,8 +41,11 @@ Bootcamp 72
 ---
 
 # Sprint 1
-
 - **Sprint Notları**: Product Backlog'daki maddeler sprint'lere göre ayrılıp öncelik sırasına konmuştur. Asana'da "list" şeklinde görüntülendiğinde hangi maddenin hangi sprint'e ait olduğu kolayca tespit edilebilmektedir.
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 199 puan
+
+- **Puan tamamlama mantığı**: Fibonacci dizisini temel alarak görevleri günlere böldük. (Örneğin 13 numarası 1 gün, 8 numarası yarım güne denk gelmektedir.)
 
 - **Backlog düzeni ve Story seçimleri**: Backlog'umuz zorluk ve öncelik sırasına göre güncellenmiştir.
 
@@ -51,6 +54,7 @@ Bootcamp 72
 - **Sprint board update**: Sprint board screenshotları: 
 ![Backlog 1](https://github.com/gizemcobannnn/flutter_72/blob/ea16b145ac61e9ed178564db54f0e2ab64597f8c/Bootcamp72Scrum-main/ProjectManagement/Sprint1Documents/productbacklog1.png) 
 ![Backlog 2](https://github.com/gizemcobannnn/flutter_72/blob/ea16b145ac61e9ed178564db54f0e2ab64597f8c/Bootcamp72Scrum-main/ProjectManagement/Sprint1Documents/productbacklog2.png) 
+![Backlog 3] 
 
 - **Ürün Durumu**: Plan aşamasındadır. 2. Sprint'te somut hale gelecektir.
 
