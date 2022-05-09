@@ -49,9 +49,8 @@ Bootcamp 72
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Telegram üzerinden sesli veya yazılı olarak yürütülmesi kararı alınmıştır. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/gizemcobannnn/flutter_72/blob/f35337f3c7bbdb31270958c4318c5e434bfc7fe4/Bootcamp72Scrum-main/ProjectManagement/Sprint1Documents/dailyscrummeeting2.PNG)
 
 - **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1]() 
-![Backlog 2]() 
-![Backlog 3]()
+![Backlog 1](https://github.com/gizemcobannnn/flutter_72/blob/ea16b145ac61e9ed178564db54f0e2ab64597f8c/Bootcamp72Scrum-main/ProjectManagement/Sprint1Documents/productbacklog1.png) 
+![Backlog 2](https://github.com/gizemcobannnn/flutter_72/blob/ea16b145ac61e9ed178564db54f0e2ab64597f8c/Bootcamp72Scrum-main/ProjectManagement/Sprint1Documents/productbacklog2.png) 
 
 - **Ürün Durumu**: Ekran görüntüleri:
   ![Screenshot 1]()
