@@ -6,7 +6,7 @@ Bootcamp 72
 
 ## Takım Elemanları
 
-- Gizem Çobam: Product Owner
+- Gizem Çoban: Product Owner
 - Zeynep Yaşa: Scrum Master
 - Sümeyye Büşra Şanlı: Team Member/Developer
 - Gencer Varol: Team Member/Developer
