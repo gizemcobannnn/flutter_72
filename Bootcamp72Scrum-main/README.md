@@ -14,11 +14,11 @@ Bootcamp 72
 
 ## Ürün İsmi
 
---Yemek Pişirme App--
+--EvTadinda--
 
 ## Ürün Açıklaması
 
-- Yemek Pişirme App uygulamamız ile çalışan veya okuyan kesimin akşam eve döndüklerinde hazır ve sıcak ev yemeklerine ulaşmalarını sağlayacağız. Ev hanımları, evlerinde freelance çalışanlar veya evde boş zamanı olup ek gelir sağlamak isteyen insanlar, eve geldiklerinde yemek pişirmek için vakti olmayan insanlar için ilanlar hazırlayıp yemek hizmeti sunacaklar.
+- EvTadinda uygulamamız ile çalışan veya okuyan kesimin akşam eve döndüklerinde hazır ve sıcak ev yemeklerine ulaşmalarını sağlayacağız. Ev hanımları, evlerinde freelance çalışanlar veya evde boş zamanı olup ek gelir sağlamak isteyen insanlar, eve geldiklerinde yemek pişirmek için vakti olmayan insanlar için ilanlar hazırlayıp yemek hizmeti sunacaklar.
 
 ## Ürün Özellikleri
 
