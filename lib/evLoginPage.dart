@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
-import './evSignupPage.dart';
-import 'package:adobe_xd/page_link.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 class evLoginPage extends StatelessWidget {
   evLoginPage({
@@ -71,192 +68,25 @@ class evLoginPage extends StatelessWidget {
               ),
             ),
           ),
-          Align(
-            alignment: Alignment(-0.034, -0.457),
+          Pinned.fromPins(
+            Pin(start: 52.0, end: 51.0),
+            Pin(size: 53.0, middle: 0.5534),
             child: Container(
-              width: 226.0,
-              height: 28.0,
-              decoration: BoxDecoration(
-                color: const Color(0xffffffff),
-                borderRadius: BorderRadius.circular(22.0),
-                border: Border.all(width: 1.0, color: const Color(0xffeaeaf5)),
-              ),
-            ),
-          ),
-          Align(
-            alignment: Alignment(-0.445, -0.448),
-            child: SizedBox(
-              width: 112.0,
-              height: 40.0,
-              child: Stack(
-                children: <Widget>[
-                  Container(
-                    decoration: BoxDecoration(
-                      color: const Color(0xff19e1dd),
-                      borderRadius: BorderRadius.circular(22.0),
-                    ),
-                    margin: EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 12.0),
-                  ),
-                  Pinned.fromPins(
-                    Pin(size: 54.0, middle: 0.5),
-                    Pin(start: 5.0, end: 0.0),
-                    child: Text(
-                      'Giriş Yap\n',
-                      style: TextStyle(
-                        fontFamily: 'Poppins',
-                        fontSize: 12,
-                        color: const Color(0xffffffff),
-                        fontWeight: FontWeight.w600,
-                      ),
-                      softWrap: false,
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          ),
-          Align(
-            alignment: Alignment(0.321, -0.454),
-            child: SizedBox(
-              width: 45.0,
-              height: 17.0,
-              child: PageLink(
-                links: [
-                  PageLinkInfo(
-                    transition: LinkTransition.Fade,
-                    ease: Curves.easeIn,
-                    duration: 0.3,
-                    pageBuilder: () => evSignupPage(),
-                  ),
-                ],
-                child: Text(
-                  'Kayıt Ol',
-                  style: TextStyle(
-                    fontFamily: 'Poppins',
-                    fontSize: 12,
-                    color: const Color(0xff19e0dc),
-                  ),
-                  softWrap: false,
-                ),
-              ),
-            ),
-          ),
-          Align(
-            alignment: Alignment(-0.032, -0.217),
-            child: SizedBox(
-              width: 225.0,
-              height: 1.0,
-              child: SvgPicture.string(
-                _svg_kf5,
-                allowDrawingOutsideViewBox: true,
-              ),
-            ),
-          ),
-          Align(
-            alignment: Alignment(-0.032, -0.096),
-            child: SizedBox(
-              width: 225.0,
-              height: 1.0,
-              child: SvgPicture.string(
-                _svg_q4zva7,
-                allowDrawingOutsideViewBox: true,
-              ),
-            ),
-          ),
-          Align(
-            alignment: Alignment(-0.459, -0.255),
-            child: SizedBox(
-              width: 105.0,
-              height: 17.0,
-              child: Text(
-                'Telefon Numarası',
-                style: TextStyle(
-                  fontFamily: 'Poppins',
-                  fontSize: 12,
-                  color: const Color(0xffa8a7a7),
-                ),
-                softWrap: false,
-              ),
-            ),
-          ),
-          Align(
-            alignment: Alignment(0.454, -0.044),
-            child: SizedBox(
-              width: 93.0,
-              height: 15.0,
-              child: Text(
-                'Şifreni mi unuttun?',
-                style: TextStyle(
-                  fontFamily: 'Poppins',
-                  fontSize: 10,
-                  color: const Color(0xffa8a7a7),
-                ),
-                softWrap: false,
-              ),
-            ),
-          ),
-          Align(
-            alignment: Alignment(-0.582, -0.132),
-            child: SizedBox(
-              width: 26.0,
-              height: 17.0,
-              child: Text(
-                'Şifre',
-                style: TextStyle(
-                  fontFamily: 'Poppins',
-                  fontSize: 12,
-                  color: const Color(0xffa8a7a7),
-                ),
-                softWrap: false,
-              ),
-            ),
-          ),
-          Align(
-            alignment: Alignment(0.0, 0.395),
-            child: SizedBox(
-              width: 29.0,
-              height: 35.0,
-              child: Text(
-                'veya\n',
-                style: TextStyle(
-                  fontFamily: 'Poppins',
-                  fontSize: 12,
-                  color: const Color(0xffa8a7a7),
-                ),
-                softWrap: false,
-              ),
-            ),
-          ),
-          Align(
-            alignment: Alignment(-0.027, 0.185),
-            child: Container(
-              width: 225.0,
-              height: 44.0,
               decoration: BoxDecoration(
                 color: const Color(0xff19e0dc),
                 borderRadius: BorderRadius.circular(22.0),
+                boxShadow: [
+                  BoxShadow(
+                    color: const Color(0x7d19d5ff),
+                    offset: Offset(8, 8),
+                    blurRadius: 9,
+                  ),
+                ],
               ),
             ),
           ),
           Align(
-            alignment: Alignment(0.003, 0.179),
-            child: SizedBox(
-              width: 32.0,
-              height: 20.0,
-              child: Text(
-                'Giriş',
-                style: TextStyle(
-                  fontFamily: 'Poppins',
-                  fontSize: 14,
-                  color: const Color(0xffffffff),
-                  fontWeight: FontWeight.w600,
-                ),
-                softWrap: false,
-              ),
-            ),
-          ),
-          Align(
-            alignment: Alignment(0.372, 0.522),
+            alignment: Alignment(-0.549, 0.107),
             child: Container(
               width: 47.0,
               height: 46.0,
@@ -269,7 +99,7 @@ class evLoginPage extends StatelessWidget {
             ),
           ),
           Align(
-            alignment: Alignment(0.351, 0.513),
+            alignment: Alignment(-0.525, 0.106),
             child: Container(
               width: 30.0,
               height: 31.0,
@@ -278,32 +108,6 @@ class evLoginPage extends StatelessWidget {
                   image: const AssetImage('assets/images/google_logo.png'),
                   fit: BoxFit.fill,
                 ),
-              ),
-            ),
-          ),
-          Align(
-            alignment: Alignment(-0.012, 0.522),
-            child: Container(
-              width: 47.0,
-              height: 46.0,
-              decoration: BoxDecoration(
-                color: const Color(0xffffffff),
-                borderRadius:
-                    BorderRadius.all(Radius.elliptical(9999.0, 9999.0)),
-                border: Border.all(width: 1.0, color: const Color(0xffeeeef6)),
-              ),
-            ),
-          ),
-          Align(
-            alignment: Alignment(-0.396, 0.522),
-            child: Container(
-              width: 47.0,
-              height: 46.0,
-              decoration: BoxDecoration(
-                color: const Color(0xffffffff),
-                borderRadius:
-                    BorderRadius.all(Radius.elliptical(9999.0, 9999.0)),
-                border: Border.all(width: 1.0, color: const Color(0xffeeeef6)),
               ),
             ),
           ),
@@ -335,39 +139,29 @@ class evLoginPage extends StatelessWidget {
             ),
           ),
           Align(
-            alignment: Alignment(-0.366, 0.512),
-            child: Container(
-              width: 15.0,
-              height: 31.0,
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                  image: const AssetImage('assets/images/facebook_logo.png'),
-                  fit: BoxFit.fill,
+            alignment: Alignment(0.078, 0.127),
+            child: SizedBox(
+              width: 117.0,
+              height: 35.0,
+              child: Text(
+                'Google ile Giriş Yap\n',
+                style: TextStyle(
+                  fontFamily: 'Poppins',
+                  fontSize: 12,
+                  color: const Color(0xffffffff),
+                  fontWeight: FontWeight.w600,
                 ),
+                softWrap: false,
               ),
             ),
           ),
-          Align(
-            alignment: Alignment(0.0, 0.509),
+          Pinned.fromPins(
+            Pin(start: 80.0, end: 80.0),
+            Pin(size: 215.0, middle: 0.3032),
             child: Container(
-              width: 30.0,
-              height: 25.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage('assets/images/twitter_logo.png'),
-                  fit: BoxFit.fill,
-                ),
-              ),
-            ),
-          ),
-          Align(
-            alignment: Alignment(0.577, -0.125),
-            child: Container(
-              width: 20.0,
-              height: 19.0,
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                  image: const AssetImage('assets/images/eye.png'),
+                  image: const AssetImage('assets/images/logo.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -378,8 +172,3 @@ class evLoginPage extends StatelessWidget {
     );
   }
 }
-
-const String _svg_kf5 =
-    '<svg viewBox="72.5 317.5 225.3 1.0" ><path transform="translate(72.5, 317.5)" d="M 0 0 L 225.2669677734375 0" fill="none" stroke="#eaeaf5" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
-const String _svg_q4zva7 =
-    '<svg viewBox="72.5 366.5 225.3 1.0" ><path transform="translate(72.5, 366.5)" d="M 0 0 L 225.2669677734375 0" fill="none" stroke="#eaeaf5" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';

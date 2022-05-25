@@ -1,4 +1,3 @@
-import 'package:evtadinda6/evLoginPage.dart';
 import 'package:evtadinda6/evWelcomePage.dart';
 import 'package:flutter/material.dart';
 
