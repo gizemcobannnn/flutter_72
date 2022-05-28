@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
+import './evTarafiniSec.dart';
+import 'package:adobe_xd/page_link.dart';
 
 class evLoginPage extends StatelessWidget {
   evLoginPage({
@@ -158,11 +160,21 @@ class evLoginPage extends StatelessWidget {
           Pinned.fromPins(
             Pin(start: 80.0, end: 80.0),
             Pin(size: 215.0, middle: 0.3032),
-            child: Container(
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                  image: const AssetImage('assets/images/logo.png'),
-                  fit: BoxFit.fill,
+            child: PageLink(
+              links: [
+                PageLinkInfo(
+                  transition: LinkTransition.Fade,
+                  ease: Curves.easeOut,
+                  duration: 0.3,
+                  pageBuilder: () => evTarafiniSec(),
+                ),
+              ],
+              child: Container(
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: const AssetImage('assets/images/logo.png'),
+                    fit: BoxFit.fill,
+                  ),
                 ),
               ),
             ),

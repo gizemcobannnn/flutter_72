@@ -27,6 +27,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  flutter_svg: ^1.1.0
   adobe_xd: ^2.0.1
   flutter:
     sdk: flutter
@@ -79,6 +80,11 @@ flutter:
    - assets/images/tatli.png
    - assets/images/kampanya.png
    - assets/images/return.png
+   - assets/images/kurufasulye.png
+   - assets/images/ispanak.png
+   - assets/images/manti.png
+   - assets/images/bamya.png
+   - assets/images/harita.jpg
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

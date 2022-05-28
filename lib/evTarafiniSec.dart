@@ -3,8 +3,8 @@ import './evLoginPage.dart';
 import 'package:adobe_xd/page_link.dart';
 import 'package:adobe_xd/pinned.dart';
 import './evORDER.dart';
-import './evWelcomePage.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import './evWelcomePage.dart';
 
 class evTarafiniSec extends StatelessWidget {
   evTarafiniSec({
@@ -186,23 +186,23 @@ class evTarafiniSec extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 32.0, start: 13.3),
-            Pin(size: 12.0, end: 26.0),
+            Pin(size: 32.0, start: 14.3),
+            Pin(size: 12.0, end: 20.0),
             child: SingleChildScrollView(
               primary: false,
               child: Wrap(
                 alignment: WrapAlignment.center,
-                spacing: 10,
+                spacing: 20,
                 runSpacing: 20,
                 children: [{}].map((itemData) {
                   return SizedBox(
-                    width: 40.0,
+                    width: 30.0,
                     height: 12.0,
                     child: Stack(
                       children: <Widget>[
                         SizedBox.expand(
                             child: Text(
-                          ' Menu  ',
+                          'Menu',
                           style: TextStyle(
                             fontFamily: 'Metropolis',
                             fontSize: 12,
@@ -212,7 +212,7 @@ class evTarafiniSec extends StatelessWidget {
                           ),
                           textHeightBehavior: TextHeightBehavior(
                               applyHeightToFirstAscent: false),
-                          textAlign: TextAlign.center,
+                          textAlign: TextAlign.justify,
                           softWrap: false,
                         )),
                       ],
@@ -223,50 +223,97 @@ class evTarafiniSec extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 6.0, start: 22.3),
-            Pin(size: 6.0, end: 52.0),
-            child: Container(
-              decoration: BoxDecoration(
-                color: const Color(0xffb6b7b7),
-                borderRadius: BorderRadius.circular(1.0),
+            Pin(size: 14.0, start: 22.3),
+            Pin(size: 14.0, end: 43.0),
+            child: SingleChildScrollView(
+              primary: false,
+              child: Wrap(
+                alignment: WrapAlignment.center,
+                spacing: 20,
+                runSpacing: 20,
+                children: [{}].map((itemData) {
+                  return SizedBox(
+                    width: 14.0,
+                    height: 14.0,
+                    child: Stack(
+                      children: <Widget>[
+                        Align(
+                          alignment: Alignment.topRight,
+                          child: Container(
+                            width: 6.0,
+                            height: 6.0,
+                            decoration: BoxDecoration(
+                              color: const Color(0xffb6b7b7),
+                              borderRadius: BorderRadius.circular(1.0),
+                            ),
+                          ),
+                        ),
+                        SingleChildScrollView(
+                          primary: false,
+                          child: Wrap(
+                            alignment: WrapAlignment.center,
+                            spacing: 20,
+                            runSpacing: 20,
+                            children: [{}].map((itemData) {
+                              return SizedBox(
+                                width: 14.0,
+                                height: 14.0,
+                                child: Stack(
+                                  children: <Widget>[
+                                    Align(
+                                      alignment: Alignment.topLeft,
+                                      child: Container(
+                                        width: 6.0,
+                                        height: 6.0,
+                                        decoration: BoxDecoration(
+                                          color: const Color(0xffb6b7b7),
+                                          borderRadius:
+                                              BorderRadius.circular(1.0),
+                                        ),
+                                      ),
+                                    ),
+                                    Align(
+                                      alignment: Alignment.bottomLeft,
+                                      child: Container(
+                                        width: 6.0,
+                                        height: 6.0,
+                                        decoration: BoxDecoration(
+                                          color: const Color(0xffb6b7b7),
+                                          borderRadius:
+                                              BorderRadius.circular(1.0),
+                                        ),
+                                      ),
+                                    ),
+                                    Align(
+                                      alignment: Alignment.bottomRight,
+                                      child: Container(
+                                        width: 6.0,
+                                        height: 6.0,
+                                        decoration: BoxDecoration(
+                                          color: const Color(0xffb6b7b7),
+                                          borderRadius:
+                                              BorderRadius.circular(1.0),
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              );
+                            }).toList(),
+                          ),
+                        ),
+                      ],
+                    ),
+                  );
+                }).toList(),
               ),
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 6.0, start: 22.3),
-            Pin(size: 6.0, end: 44.0),
-            child: Container(
-              decoration: BoxDecoration(
-                color: const Color(0xffb6b7b7),
-                borderRadius: BorderRadius.circular(1.0),
-              ),
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 6.0, start: 30.3),
-            Pin(size: 6.0, end: 52.0),
-            child: Container(
-              decoration: BoxDecoration(
-                color: const Color(0xffb6b7b7),
-                borderRadius: BorderRadius.circular(1.0),
-              ),
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 6.0, start: 30.3),
-            Pin(size: 6.0, end: 44.0),
-            child: Container(
-              decoration: BoxDecoration(
-                color: const Color(0xffb6b7b7),
-                borderRadius: BorderRadius.circular(1.0),
-              ),
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 70.0, middle: 0.227),
-            Pin(size: 12.0, end: 26.0),
+            Pin(size: 62.0, middle: 0.2468),
+            Pin(size: 12.0, end: 20.0),
             child: Text(
-              'Siparişlerim  ',
+              'Siparişler',
               style: TextStyle(
                 fontFamily: 'Metropolis',
                 fontSize: 12,
@@ -276,26 +323,8 @@ class evTarafiniSec extends StatelessWidget {
               ),
               textHeightBehavior:
                   TextHeightBehavior(applyHeightToFirstAscent: false),
-              textAlign: TextAlign.center,
+              textAlign: TextAlign.justify,
               softWrap: false,
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 16.2, middle: 0.2683),
-            Pin(size: 11.4, end: 44.2),
-            child: SvgPicture.string(
-              _svg_eubksc,
-              allowDrawingOutsideViewBox: true,
-              fit: BoxFit.fill,
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 8.1, middle: 0.2844),
-            Pin(size: 11.4, end: 44.2),
-            child: SvgPicture.string(
-              _svg_x6zq6u,
-              allowDrawingOutsideViewBox: true,
-              fit: BoxFit.fill,
             ),
           ),
           Pinned.fromPins(
@@ -321,28 +350,74 @@ class evTarafiniSec extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 7.1, middle: 0.274),
-            Pin(size: 7.2, end: 52.8),
-            child: SvgPicture.string(
-              _svg_y19sui,
-              allowDrawingOutsideViewBox: true,
-              fit: BoxFit.fill,
+            Pin(size: 16.2, middle: 0.2683),
+            Pin(size: 15.8, end: 43.2),
+            child: SingleChildScrollView(
+              primary: false,
+              child: Wrap(
+                alignment: WrapAlignment.center,
+                spacing: 20,
+                runSpacing: 20,
+                children: [{}].map((itemData) {
+                  return SizedBox(
+                    width: 16.0,
+                    height: 16.0,
+                    child: Stack(
+                      children: <Widget>[
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(0.0, 4.4, 0.0, 0.0),
+                          child: SizedBox.expand(
+                              child: SvgPicture.string(
+                            _svg_e2as55,
+                            allowDrawingOutsideViewBox: true,
+                            fit: BoxFit.fill,
+                          )),
+                        ),
+                        Align(
+                          alignment: Alignment.bottomRight,
+                          child: SizedBox(
+                            width: 8.0,
+                            height: 11.0,
+                            child: SvgPicture.string(
+                              _svg_qfaoz9,
+                              allowDrawingOutsideViewBox: true,
+                            ),
+                          ),
+                        ),
+                        Align(
+                          alignment: Alignment.topCenter,
+                          child: SizedBox(
+                            width: 7.0,
+                            height: 7.0,
+                            child: SvgPicture.string(
+                              _svg_tgmghr,
+                              allowDrawingOutsideViewBox: true,
+                            ),
+                          ),
+                        ),
+                        Align(
+                          alignment: Alignment(0.278, -1.0),
+                          child: SizedBox(
+                            width: 4.0,
+                            height: 7.0,
+                            child: SvgPicture.string(
+                              _svg_y9a20,
+                              allowDrawingOutsideViewBox: true,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  );
+                }).toList(),
+              ),
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 3.5, middle: 0.2809),
-            Pin(size: 7.2, end: 52.8),
-            child: SvgPicture.string(
-              _svg_hgz0wr,
-              allowDrawingOutsideViewBox: true,
-              fit: BoxFit.fill,
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 36.0, end: 16.8),
-            Pin(size: 12.0, end: 26.0),
+            Pin(size: 28.0, end: 21.8),
+            Pin(size: 12.0, end: 20.0),
             child: Text(
-              'Diğer  ',
+              'Diğer',
               style: TextStyle(
                 fontFamily: 'Metropolis',
                 fontSize: 12,
@@ -352,7 +427,7 @@ class evTarafiniSec extends StatelessWidget {
               ),
               textHeightBehavior:
                   TextHeightBehavior(applyHeightToFirstAscent: false),
-              textAlign: TextAlign.center,
+              textAlign: TextAlign.justify,
               softWrap: false,
             ),
           ),
@@ -402,10 +477,10 @@ class evTarafiniSec extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 46.0, middle: 0.7363),
-            Pin(size: 12.0, end: 26.1),
+            Pin(size: 44.0, middle: 0.7349),
+            Pin(size: 12.0, end: 20.1),
             child: Text(
-              'Profilim  ',
+              'Profilim ',
               style: TextStyle(
                 fontFamily: 'Metropolis',
                 fontSize: 12,
@@ -415,7 +490,7 @@ class evTarafiniSec extends StatelessWidget {
               ),
               textHeightBehavior:
                   TextHeightBehavior(applyHeightToFirstAscent: false),
-              textAlign: TextAlign.center,
+              textAlign: TextAlign.justify,
               softWrap: false,
             ),
           ),
@@ -486,11 +561,23 @@ class evTarafiniSec extends StatelessWidget {
           Pinned.fromPins(
             Pin(size: 35.0, end: 14.0),
             Pin(size: 35.0, start: 21.0),
-            child: Container(
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                  image: const AssetImage('assets/images/anonim.png'),
-                  fit: BoxFit.fill,
+            child: PageLink(
+              links: [
+                PageLinkInfo(
+                  transition: LinkTransition.Fade,
+                  ease: Curves.easeOut,
+                  duration: 0.3,
+                  pageBuilder: () => evLoginPage(),
+                ),
+              ],
+              child: Container(
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: const AssetImage('assets/images/anonim.png'),
+                    fit: BoxFit.fill,
+                  ),
+                  border:
+                      Border.all(width: 1.0, color: const Color(0xfff7f6ff)),
                 ),
               ),
             ),
@@ -513,6 +600,8 @@ class evTarafiniSec extends StatelessWidget {
                     image: const AssetImage('assets/images/return.png'),
                     fit: BoxFit.fill,
                   ),
+                  border:
+                      Border.all(width: 1.0, color: const Color(0xfff7f6ff)),
                 ),
               ),
             ),
@@ -523,18 +612,18 @@ class evTarafiniSec extends StatelessWidget {
   }
 }
 
+const String _svg_e2as55 =
+    '<svg viewBox="96.3 752.4 16.2 11.4" ><path transform="translate(96.25, 607.87)" d="M 16.21429634094238 155.4073791503906 L 15.04178905487061 144.9233093261719 C 15.01486778259277 144.6828460693359 14.81158447265625 144.5010070800781 14.56962776184082 144.5010070800781 L 1.646227121353149 144.5010070800781 C 1.40423846244812 144.5010070800781 1.200891852378845 144.6828765869141 1.174064159393311 144.9233703613281 L 0.003079649293795228 155.4074401855469 C -0.01193378586322069 155.5417938232422 0.0310160368680954 155.6761627197266 0.1211599856615067 155.7769470214844 C 0.2113039344549179 155.8777313232422 0.3400584161281586 155.9353179931641 0.4752742946147919 155.9353179931641 L 15.74216461181641 155.9353179931641 C 15.87738037109375 155.9353179931641 16.00616455078125 155.8777313232422 16.09631156921387 155.7769470214844 C 16.18645477294922 155.6761627197266 16.22933959960938 155.541748046875 16.21429634094238 155.4073791503906 Z" fill="#b6b7b7" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+const String _svg_qfaoz9 =
+    '<svg viewBox="104.4 752.4 8.1 11.4" ><path transform="translate(-151.64, 607.87)" d="M 264.1065673828125 155.4073791503906 L 262.93408203125 144.9233093261719 C 262.9071655273438 144.6828460693359 262.703857421875 144.5010070800781 262.4619140625 144.5010070800781 L 256.0009765625 144.5010070800781 L 256.0009765625 155.9352722167969 L 263.6343994140625 155.9352722167969 C 263.7696228027344 155.9352722167969 263.8984375 155.877685546875 263.9885559082031 155.7769165039062 C 264.0787048339844 155.6761169433594 264.1216430664062 155.541748046875 264.1065673828125 155.4073791503906 Z" fill="#b6b7b7" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+const String _svg_tgmghr =
+    '<svg viewBox="100.8 748.0 7.1 7.2" ><path transform="translate(-43.67, 741.5)" d="M 151.0891723632812 13.67514610290527 C 150.8267822265625 13.67514610290527 150.6140747070312 13.46242523193359 150.6140747070312 13.20003890991211 L 150.6140747070312 10.03264808654785 C 150.6140747070312 8.609254837036133 149.4560394287109 7.451223850250244 148.0326538085938 7.451223850250244 C 146.6092529296875 7.451223850250244 145.4512176513672 8.609254837036133 145.4512176513672 10.03264808654785 L 145.4512176513672 13.20003890991211 C 145.4512176513672 13.46242523193359 145.2384948730469 13.67514610290527 144.9761047363281 13.67514610290527 C 144.7137145996094 13.67514610290527 144.5010070800781 13.46242523193359 144.5010070800781 13.20003890991211 L 144.5010070800781 10.03264808654785 C 144.5010070800781 8.085304260253906 146.0852966308594 6.501007080078125 148.0326538085938 6.501007080078125 C 149.97998046875 6.501007080078125 151.5642852783203 8.085304260253906 151.5642852783203 10.03264808654785 L 151.5642852783203 13.20003890991211 C 151.5642852783203 13.46242523193359 151.3515625 13.67514610290527 151.0891723632812 13.67514610290527 Z" fill="#b6b7b7" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+const String _svg_y9a20 =
+    '<svg viewBox="104.4 748.0 3.5 7.2" ><path transform="translate(-151.64, 741.5)" d="M 256.0010070800781 6.500999450683594 L 256.0010070800781 7.451217174530029 C 257.4243774414062 7.451217174530029 258.5823974609375 8.609247207641602 258.5823974609375 10.03264045715332 L 258.5823974609375 13.20003128051758 C 258.5823974609375 13.4624195098877 258.7951354980469 13.67514038085938 259.0575256347656 13.67514038085938 C 259.3199157714844 13.67514038085938 259.5326232910156 13.4624195098877 259.5326232910156 13.20003128051758 L 259.5326232910156 10.03264045715332 C 259.5326232910156 8.085297584533691 257.9483642578125 6.500999927520752 256.0010070800781 6.500999927520752 Z" fill="#b6b7b7" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
 const String _svg_ixtjz =
     '<svg viewBox="-1.5 703.0 376.5 92.0" ><path transform="translate(-3033.75, 220.0)" d="M 3408.00048828125 575.0001220703125 L 3033 575.0001220703125 L 3033 518.0004272460938 L 3032.286376953125 518.0004272460938 L 3032.286376953125 483.0003051757812 L 3147.036376953125 483.0003051757812 C 3158.171142578125 483.0003051757812 3167.373779296875 491.2723388671875 3168.833984375 502.0065002441406 C 3175.14404296875 525.6063842773438 3196.447021484375 541.9998168945312 3221.000244140625 541.9998168945312 C 3245.65673828125 541.9998168945312 3267.034912109375 525.4700927734375 3273.24462890625 501.7101135253906 C 3274.8330078125 491.1209716796875 3283.96826171875 483.0003051757812 3295 483.0003051757812 L 3408.75 483.0003051757812 L 3408.75 518.0004272460938 L 3408.00048828125 518.0004272460938 L 3408.00048828125 575.0001220703125 L 3408.00048828125 575.0010375976562 Z" fill="#4a4b4d" fill-opacity="0.11" stroke="none" stroke-width="1" stroke-opacity="0.11" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
 const String _svg_cxwzcs =
     '<svg viewBox="0.0 723.0 376.5 92.0" ><path transform="translate(-3032.29, 240.0)" d="M 3408.00048828125 575.0001220703125 L 3033 575.0001220703125 L 3033 518.0004272460938 L 3032.286376953125 518.0004272460938 L 3032.286376953125 483.0003051757812 L 3147.036376953125 483.0003051757812 C 3158.171142578125 483.0003051757812 3167.373779296875 491.2723388671875 3168.833984375 502.0065002441406 C 3175.14404296875 525.6063842773438 3196.447021484375 541.9998168945312 3221.000244140625 541.9998168945312 C 3245.65673828125 541.9998168945312 3267.034912109375 525.4700927734375 3273.24462890625 501.7101135253906 C 3274.8330078125 491.1209716796875 3283.96826171875 483.0003051757812 3295 483.0003051757812 L 3408.75 483.0003051757812 L 3408.75 518.0004272460938 L 3408.00048828125 518.0004272460938 L 3408.00048828125 575.0001220703125 L 3408.00048828125 575.0010375976562 Z" fill="#ffffff" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
-const String _svg_eubksc =
-    '<svg viewBox="96.3 756.4 16.2 11.4" ><path transform="translate(96.25, 611.87)" d="M 16.21429634094238 155.4073791503906 L 15.04178905487061 144.9233093261719 C 15.01486778259277 144.6828460693359 14.81158447265625 144.5010070800781 14.56962776184082 144.5010070800781 L 1.646227121353149 144.5010070800781 C 1.40423846244812 144.5010070800781 1.200891852378845 144.6828765869141 1.174064159393311 144.9233703613281 L 0.003079649293795228 155.4074401855469 C -0.01193378586322069 155.5417938232422 0.0310160368680954 155.6761627197266 0.1211599856615067 155.7769470214844 C 0.2113039344549179 155.8777313232422 0.3400584161281586 155.9353179931641 0.4752742946147919 155.9353179931641 L 15.74216461181641 155.9353179931641 C 15.87738037109375 155.9353179931641 16.00616455078125 155.8777313232422 16.09631156921387 155.7769470214844 C 16.18645477294922 155.6761627197266 16.22933959960938 155.541748046875 16.21429634094238 155.4073791503906 Z" fill="#b6b7b7" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
-const String _svg_x6zq6u =
-    '<svg viewBox="104.4 756.4 8.1 11.4" ><path transform="translate(-151.64, 611.87)" d="M 264.1065673828125 155.4073791503906 L 262.93408203125 144.9233093261719 C 262.9071655273438 144.6828460693359 262.703857421875 144.5010070800781 262.4619140625 144.5010070800781 L 256.0009765625 144.5010070800781 L 256.0009765625 155.9352722167969 L 263.6343994140625 155.9352722167969 C 263.7696228027344 155.9352722167969 263.8984375 155.877685546875 263.9885559082031 155.7769165039062 C 264.0787048339844 155.6761169433594 264.1216430664062 155.541748046875 264.1065673828125 155.4073791503906 Z" fill="#b6b7b7" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
-const String _svg_y19sui =
-    '<svg viewBox="100.8 752.0 7.1 7.2" ><path transform="translate(-43.67, 745.5)" d="M 151.0891723632812 13.67514610290527 C 150.8267822265625 13.67514610290527 150.6140747070312 13.46242523193359 150.6140747070312 13.20003890991211 L 150.6140747070312 10.03264808654785 C 150.6140747070312 8.609254837036133 149.4560394287109 7.451223850250244 148.0326538085938 7.451223850250244 C 146.6092529296875 7.451223850250244 145.4512176513672 8.609254837036133 145.4512176513672 10.03264808654785 L 145.4512176513672 13.20003890991211 C 145.4512176513672 13.46242523193359 145.2384948730469 13.67514610290527 144.9761047363281 13.67514610290527 C 144.7137145996094 13.67514610290527 144.5010070800781 13.46242523193359 144.5010070800781 13.20003890991211 L 144.5010070800781 10.03264808654785 C 144.5010070800781 8.085304260253906 146.0852966308594 6.501007080078125 148.0326538085938 6.501007080078125 C 149.97998046875 6.501007080078125 151.5642852783203 8.085304260253906 151.5642852783203 10.03264808654785 L 151.5642852783203 13.20003890991211 C 151.5642852783203 13.46242523193359 151.3515625 13.67514610290527 151.0891723632812 13.67514610290527 Z" fill="#b6b7b7" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
-const String _svg_hgz0wr =
-    '<svg viewBox="104.4 752.0 3.5 7.2" ><path transform="translate(-151.64, 745.5)" d="M 256.0010070800781 6.500999450683594 L 256.0010070800781 7.451217174530029 C 257.4243774414062 7.451217174530029 258.5823974609375 8.609247207641602 258.5823974609375 10.03264045715332 L 258.5823974609375 13.20003128051758 C 258.5823974609375 13.4624195098877 258.7951354980469 13.67514038085938 259.0575256347656 13.67514038085938 C 259.3199157714844 13.67514038085938 259.5326232910156 13.4624195098877 259.5326232910156 13.20003128051758 L 259.5326232910156 10.03264045715332 C 259.5326232910156 8.085297584533691 257.9483642578125 6.500999927520752 256.0010070800781 6.500999927520752 Z" fill="#b6b7b7" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
 const String _svg_ww7dxg =
     '<svg viewBox="332.3 752.0 15.7 2.3" ><path transform="translate(45.41, 748.22)" d="M 301.772216796875 3.784480333328247 L 287.6126403808594 3.784480333328247 C 287.40771484375 3.784480333328247 287.2118835449219 3.865850210189819 287.0668029785156 4.01069164276123 C 286.9216918945312 4.155524253845215 286.8410339355469 4.351968288421631 286.8410339355469 4.556790351867676 L 286.8410339355469 5.269256114959717 C 286.8410339355469 5.474087238311768 286.9216918945312 5.670530796051025 287.0668029785156 5.81536340713501 C 287.2118835449219 5.960205078125 287.40771484375 6.041565895080566 287.6126403808594 6.041565895080566 L 301.772216796875 6.041565895080566 C 301.9771423339844 6.041565895080566 302.1738891601562 5.960205078125 302.3180541992188 5.81536340713501 C 302.463134765625 5.670530796051025 302.5447387695312 5.474087238311768 302.5447387695312 5.269256114959717 L 302.5447387695312 4.556790351867676 C 302.5447387695312 4.351968288421631 302.463134765625 4.155524253845215 302.3180541992188 4.01069164276123 C 302.1738891601562 3.865850210189819 301.9771423339844 3.784480333328247 301.772216796875 3.784480333328247 Z" fill="#b6b7b7" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
 const String _svg_weaxpx =

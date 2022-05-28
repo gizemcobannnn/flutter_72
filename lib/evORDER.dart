@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
-import './evTarafiniSec.dart';
+import './evSatcProfili.dart';
 import 'package:adobe_xd/page_link.dart';
+import './evLoginPage.dart';
+import './evTarafiniSec.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class evORDER extends StatelessWidget {
@@ -259,7 +261,7 @@ class evORDER extends StatelessWidget {
             Pin(size: 36.0, start: 12.3),
             Pin(size: 12.0, end: 27.0),
             child: Text(
-              'Menu  ',
+              'Menu',
               style: TextStyle(
                 fontFamily: 'Metropolis',
                 fontSize: 12,
@@ -269,7 +271,7 @@ class evORDER extends StatelessWidget {
               ),
               textHeightBehavior:
                   TextHeightBehavior(applyHeightToFirstAscent: false),
-              textAlign: TextAlign.center,
+              textAlign: TextAlign.justify,
               softWrap: false,
             ),
           ),
@@ -317,7 +319,7 @@ class evORDER extends StatelessWidget {
             Pin(size: 70.0, middle: 0.2303),
             Pin(size: 12.0, end: 27.0),
             child: Text(
-              'Siparişlerim  ',
+              'Siparişler',
               style: TextStyle(
                 fontFamily: 'Metropolis',
                 fontSize: 12,
@@ -327,7 +329,7 @@ class evORDER extends StatelessWidget {
               ),
               textHeightBehavior:
                   TextHeightBehavior(applyHeightToFirstAscent: false),
-              textAlign: TextAlign.center,
+              textAlign: TextAlign.justify,
               softWrap: false,
             ),
           ),
@@ -393,7 +395,7 @@ class evORDER extends StatelessWidget {
             Pin(size: 36.0, end: 15.8),
             Pin(size: 12.0, end: 27.0),
             child: Text(
-              'Diğer  ',
+              'Diğer',
               style: TextStyle(
                 fontFamily: 'Metropolis',
                 fontSize: 12,
@@ -403,7 +405,7 @@ class evORDER extends StatelessWidget {
               ),
               textHeightBehavior:
                   TextHeightBehavior(applyHeightToFirstAscent: false),
-              textAlign: TextAlign.center,
+              textAlign: TextAlign.justify,
               softWrap: false,
             ),
           ),
@@ -456,7 +458,7 @@ class evORDER extends StatelessWidget {
             Pin(size: 46.0, middle: 0.7394),
             Pin(size: 12.0, end: 27.1),
             child: Text(
-              'Profilim  ',
+              'Profilim',
               style: TextStyle(
                 fontFamily: 'Metropolis',
                 fontSize: 12,
@@ -466,7 +468,7 @@ class evORDER extends StatelessWidget {
               ),
               textHeightBehavior:
                   TextHeightBehavior(applyHeightToFirstAscent: false),
-              textAlign: TextAlign.center,
+              textAlign: TextAlign.justify,
               softWrap: false,
             ),
           ),
@@ -589,10 +591,20 @@ class evORDER extends StatelessWidget {
                     Pinned.fromPins(
                       Pin(size: 173.0, start: 22.5),
                       Pin(start: 0.0, end: 0.0),
-                      child: SvgPicture.string(
-                        _svg_ju2cwi,
-                        allowDrawingOutsideViewBox: true,
-                        fit: BoxFit.fill,
+                      child: PageLink(
+                        links: [
+                          PageLinkInfo(
+                            transition: LinkTransition.Fade,
+                            ease: Curves.easeOut,
+                            duration: 0.3,
+                            pageBuilder: () => evSatcProfili(),
+                          ),
+                        ],
+                        child: SvgPicture.string(
+                          _svg_ju2cwi,
+                          allowDrawingOutsideViewBox: true,
+                          fit: BoxFit.fill,
+                        ),
                       ),
                     ),
                     Pinned.fromPins(
@@ -821,11 +833,23 @@ class evORDER extends StatelessWidget {
           Pinned.fromPins(
             Pin(size: 35.0, end: 14.0),
             Pin(size: 35.0, start: 21.0),
-            child: Container(
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                  image: const AssetImage('assets/images/anonim.png'),
-                  fit: BoxFit.fill,
+            child: PageLink(
+              links: [
+                PageLinkInfo(
+                  transition: LinkTransition.Fade,
+                  ease: Curves.easeOut,
+                  duration: 0.3,
+                  pageBuilder: () => evLoginPage(),
+                ),
+              ],
+              child: Container(
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: const AssetImage('assets/images/anonim.png'),
+                    fit: BoxFit.fill,
+                  ),
+                  border:
+                      Border.all(width: 1.0, color: const Color(0xfff7f6ff)),
                 ),
               ),
             ),
@@ -848,6 +872,8 @@ class evORDER extends StatelessWidget {
                     image: const AssetImage('assets/images/return.png'),
                     fit: BoxFit.fill,
                   ),
+                  border:
+                      Border.all(width: 1.0, color: const Color(0xfff7f6ff)),
                 ),
               ),
             ),
