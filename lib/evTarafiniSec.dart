@@ -29,7 +29,8 @@ class evTarafiniSec extends StatelessWidget {
               ],
               child: Container(
                 width: 173.0,
-                height: 211.0,
+                height: 211.0,// alt satırı ekledim marjin hatası çözümü için
+                margin: const EdgeInsets.only(left: 20.0, right: 20.0),
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
                     begin: Alignment(0.847, -0.823),
@@ -68,7 +69,8 @@ class evTarafiniSec extends StatelessWidget {
             alignment: Alignment(-0.053, -0.234),
             child: Container(
               width: 149.0,
-              height: 138.0,
+              height: 138.0,// ekledim
+              margin: const EdgeInsets.only(left: 20.0, right: 20.0),
               decoration: BoxDecoration(
                 image: DecorationImage(
                   image: const AssetImage('assets/images/asci.png'),
@@ -107,7 +109,8 @@ class evTarafiniSec extends StatelessWidget {
               ],
               child: Container(
                 width: 173.0,
-                height: 211.0,
+                height: 211.0,//ekledim
+                margin: const EdgeInsets.only(left: 20.0, right: 20.0),
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
                     begin: Alignment(0.847, -0.823),
@@ -131,7 +134,8 @@ class evTarafiniSec extends StatelessWidget {
             alignment: Alignment(-0.056, 0.533),
             child: Container(
               width: 144.0,
-              height: 144.0,
+              height: 144.0,//ekledim
+              margin: const EdgeInsets.only(left: 20.0, right: 20.0),
               decoration: BoxDecoration(
                 image: DecorationImage(
                   image: const AssetImage('assets/images/yiyen.png'),
@@ -160,7 +164,8 @@ class evTarafiniSec extends StatelessWidget {
           Pinned.fromPins(
             Pin(size: 119.0, middle: 0.4932),
             Pin(size: 5.0, end: 11.0),
-            child: Container(
+            child: Container(//ekledim
+              margin: const EdgeInsets.only(left: 20.0, right: 20.0),
               decoration: BoxDecoration(
                 color: const Color(0xff4a4b4d),
                 borderRadius: BorderRadius.circular(10.0),
@@ -330,7 +335,8 @@ class evTarafiniSec extends StatelessWidget {
           Pinned.fromPins(
             Pin(size: 1.9, middle: 0.269),
             Pin(size: 1.9, end: 52.2),
-            child: Container(
+            child: Container(//ekledim
+              margin: const EdgeInsets.only(left: 20.0, right: 20.0),
               decoration: BoxDecoration(
                 color: const Color(0xffb6b7b7),
                 borderRadius:
@@ -341,7 +347,8 @@ class evTarafiniSec extends StatelessWidget {
           Pinned.fromPins(
             Pin(size: 1.9, middle: 0.2854),
             Pin(size: 1.9, end: 52.2),
-            child: Container(
+            child: Container(//ekledim
+              margin: const EdgeInsets.only(left: 20.0, right: 20.0),
               decoration: BoxDecoration(
                 color: const Color(0xffb6b7b7),
                 borderRadius:
@@ -533,7 +540,8 @@ class evTarafiniSec extends StatelessWidget {
           Pinned.fromPins(
             Pin(size: 74.0, middle: 0.5017),
             Pin(size: 74.0, end: 54.0),
-            child: Container(
+            child: Container(//ekledim
+              margin: const EdgeInsets.only(left: 20.0, right: 20.0),
               decoration: BoxDecoration(
                 color: const Color(0xff4ac8fa),
                 borderRadius:
@@ -570,7 +578,8 @@ class evTarafiniSec extends StatelessWidget {
                   pageBuilder: () => evLoginPage(),
                 ),
               ],
-              child: Container(
+              child: Container(//ekledim
+                margin: const EdgeInsets.only(left: 20.0, right: 20.0),
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     image: const AssetImage('assets/images/anonim.png'),
@@ -594,7 +603,8 @@ class evTarafiniSec extends StatelessWidget {
                   pageBuilder: () => evWelcomePage(),
                 ),
               ],
-              child: Container(
+              child: Container(//ekledim
+                margin: const EdgeInsets.only(left: 20.0, right: 20.0),
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     image: const AssetImage('assets/images/return.png'),

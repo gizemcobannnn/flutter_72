@@ -1,7 +1,10 @@
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
 import 'package:adobe_xd/blend_mask.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+
 
 class evSIPARS extends StatelessWidget {
   evSIPARS({
@@ -17,6 +20,9 @@ class evSIPARS extends StatelessWidget {
             Pin(start: 28.0, end: 28.0),
             Pin(size: 56.0, middle: 0.7778),
             child: Container(
+              padding: const EdgeInsets.all(8.0),
+              height: 500.0,
+              width: 500.0, //bnvnvn
               decoration: BoxDecoration(
                 color: const Color(0xff19d5ff),
                 borderRadius: BorderRadius.circular(6.0),
