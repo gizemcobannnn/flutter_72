@@ -68,6 +68,7 @@ Bootcamp 72
 ![Backlog 3](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint1Documents/productbacklog3.png)
 
 - **Ürün Durumu**: Ekran görüntüleri:
+
  ![App Screenshot 1](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint1Documents/productss1.JPG) 
  ![App Screenshot 2](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint1Documents/productss2.JPG) 
 
@@ -109,6 +110,7 @@ Alınan kararlar: Product Backlog'daki maddeler öncelik sırasına konmuş ve g
 ![Backlog 4](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/productbacklog4.png)
 
 - **Ürün Durumu**: Ekran görüntüleri: 
+
 ![App Screenshot 1](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/productss1.png) 
 
 ![App Screenshot 2](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/productss2.png) 
@@ -153,6 +155,7 @@ Alınan kararlar: Firebase'le kullanıcı doğrulama özelliğini bütün sayfal
 
 
 - **Ürün Durumu**: Ekran görüntüleri: 
+
 ![App Screenshot 1](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint3Documents/productss1.png) 
 
 ![App Screenshot 2](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint3Documents/productss2.png) 
@@ -160,5 +163,13 @@ Alınan kararlar: Firebase'le kullanıcı doğrulama özelliğini bütün sayfal
 ![App Screenshot 3](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint3Documents/productss3.png)
 
 ![App Screenshot 4](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint3Documents/productss4.png)
+
+- **Sprint Review**: 
+Alınan kararlar: Firebase, uygulama içerisinden çıkarılmıştır. Chat eklentisi kurmaktan vazgeçilmiştir. Sprint Review katılımcıları: Gizem Çoban, Zeynep Yaşa, Osman Nuri Ereser, Gencer Varol
+
+- **Sprint Retrospective:**
+  - Firebase'deki layout düzeninden kaynaklanan hatalar çözülemedi
+  - Daha interaktif bir uygulama olabilirdi
+  - Tasarımlar başarılı oldu ve Flutter'a entegre edilebildi
 
 ---
