@@ -126,5 +126,35 @@ Alınan kararlar: Firebase'le kullanıcı doğrulama özelliğini bütün sayfal
 ---
 
 # Sprint 3
+- **Sprint Notları**: Sprint'in neredeyse hepsi tasarım halindeki sayfaları Flutter'a entegre etmeye çalışmak ve hataları temizlemekle geçmiştir. Kod üzerinde daha çok bireysel çalışıp hatalarla karşılaştığımızda birlikte araştırma yapıp birleştirdiğimiz bir dönemdi.
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 233 puan
+
+- **Puan tamamlama mantığı**: Fibonacci dizisini temel alarak görevleri günlere böldük. (Örneğin 13 numarası 1 gün, 8 numarası yarım güne denk gelmektedir.)
+
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz zorluk ve öncelik sırasına göre güncellenmiştir. Tasarım ve kodlama aşamasında olan görevler de ayrıca kategorize edilmiştir.
+
+- **Daily Scrum**: [Sprint 2 Daily Scrum Chat 1](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/dailysprint1.png)
+
+[Sprint 2 Daily Scrum Chat 2](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/dailysprint2.png)
+
+[Sprint 2 Daily Scrum Chat 3](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/dailysprint3.jpg)
+
+[Sprint 2 Daily Scrum Chat 4](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/dailysprint4.jpg)
+
+[Sprint 2 Daily Scrum Chat 5](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/dailysprint5.jpg)
+
+- **Sprint board update**: Sprint board screenshotları: 
+![Backlog 1](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/productbacklog1.png) 
+![Backlog 2](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/productbacklog2.png) 
+![Backlog 3](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/productbacklog3.png) 
+![Backlog 4](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/productbacklog4.png)
+
+- **Ürün Durumu**: Ekran görüntüleri: 
+![App Screenshot 1](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/productss1.png) 
+
+![App Screenshot 2](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/productss2.png) 
+
+![App Screenshot 3](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/productss3.png)
 
 ---
