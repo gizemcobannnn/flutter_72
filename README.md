@@ -50,17 +50,17 @@ Bootcamp 72
 
 - **Backlog düzeni ve Story seçimleri**: Backlog'umuz zorluk ve öncelik sırasına göre güncellenmiştir.
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Telegram üzerinden sesli veya yazılı olarak yürütülmesi kararı alınmıştır. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chat 1](https://github.com/gizemcobannnn/flutter_72/blob/main/Bootcamp72Scrum-main/ProjectManagement/Sprint1Documents/dailysprint1.PNG)
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Telegram üzerinden sesli veya yazılı olarak yürütülmesi kararı alınmıştır. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chat 1](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint1Documents/dailysprint1.PNG)
 
-![Sprint 1 Daily Scrum Chat 2](https://github.com/gizemcobannnn/flutter_72/blob/main/Bootcamp72Scrum-main/ProjectManagement/Sprint1Documents/dailysprint2.PNG)
+![Sprint 1 Daily Scrum Chat 2](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint1Documents/dailysprint2.PNG)
 
-![Sprint 1 Daily Scrum Chat 3](https://github.com/gizemcobannnn/flutter_72/blob/main/Bootcamp72Scrum-main/ProjectManagement/Sprint1Documents/dailysprint4.PNG)
+![Sprint 1 Daily Scrum Chat 3](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint1Documents/dailysprint4.PNG)
 
-![Sprint 1 Daily Scrum Chat 4](https://github.com/gizemcobannnn/flutter_72/blob/main/Bootcamp72Scrum-main/ProjectManagement/Sprint1Documents/dailysprint5.PNG)
+![Sprint 1 Daily Scrum Chat 4](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint1Documents/dailysprint5.PNG)
 
-![Sprint 1 Daily Scrum Chat 5](https://github.com/gizemcobannnn/flutter_72/blob/main/Bootcamp72Scrum-main/ProjectManagement/Sprint1Documents/dailysprint6.PNG)
+![Sprint 1 Daily Scrum Chat 5](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint1Documents/dailysprint6.PNG)
 
-![Sprint 1 Daily Scrum Chat 6](https://github.com/gizemcobannnn/flutter_72/blob/main/Bootcamp72Scrum-main/ProjectManagement/Sprint1Documents/dailysprint7.PNG)
+![Sprint 1 Daily Scrum Chat 6](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint1Documents/dailysprint7.PNG)
 
 - **Sprint board update**: Sprint board screenshotları: 
 ![Backlog 1](https://github.com/gizemcobannnn/flutter_72/blob/ea16b145ac61e9ed178564db54f0e2ab64597f8c/Bootcamp72Scrum-main/ProjectManagement/Sprint1Documents/productbacklog1.png) 
