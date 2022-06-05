@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/Users/zeynepyasa/Downloads/projects/evtadinda6/android/app"
+    name=":app"
+    type="APP"
+    maven="android:app:"
+    gradle="7.1.2"
+    buildFolder="/Users/zeynepyasa/Downloads/projects/evtadinda6/build/app"
+    bootClassPath="/Users/zeynepyasa/Library/Android/sdk/platforms/android-31/android.jar:/Users/zeynepyasa/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-31">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
