@@ -134,27 +134,31 @@ Alınan kararlar: Firebase'le kullanıcı doğrulama özelliğini bütün sayfal
 
 - **Backlog düzeni ve Story seçimleri**: Backlog'umuz zorluk ve öncelik sırasına göre güncellenmiştir. Tasarım ve kodlama aşamasında olan görevler de ayrıca kategorize edilmiştir.
 
-- **Daily Scrum**: [Sprint 2 Daily Scrum Chat 1](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/dailysprint1.png)
+- **Daily Scrum**: [Sprint 3 Daily Scrum Chat 1](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint3Documents/dailysprint1.jpg)
 
-[Sprint 2 Daily Scrum Chat 2](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/dailysprint2.png)
+[Sprint 3 Daily Scrum Chat 2](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint3Documents/dailysprint2.jpg)
 
-[Sprint 2 Daily Scrum Chat 3](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/dailysprint3.jpg)
+[Sprint 3 Daily Scrum Chat 3](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint3Documents/dailysprint3.jpg)
 
-[Sprint 2 Daily Scrum Chat 4](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/dailysprint4.jpg)
+[Sprint 3 Daily Scrum Chat 4](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint3Documents/dailysprint4.jpg)
 
-[Sprint 2 Daily Scrum Chat 5](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/dailysprint5.jpg)
+[Sprint 3 Daily Scrum Chat 5](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint3Documents/dailysprint5.jpg)
+
+[Sprint 3 Daily Scrum Chat 6](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint3Documents/dailysprint6.jpg)
 
 - **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/productbacklog1.png) 
-![Backlog 2](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/productbacklog2.png) 
-![Backlog 3](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/productbacklog3.png) 
-![Backlog 4](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/productbacklog4.png)
+![Backlog 1](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint3Documents/productbacklog1.png) 
+![Backlog 2](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint3Documents/productbacklog2.png) 
+![Backlog 3](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint3Documents/productbacklog3.png) 
+
 
 - **Ürün Durumu**: Ekran görüntüleri: 
-![App Screenshot 1](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/productss1.png) 
+![App Screenshot 1](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint3Documents/productss1.png) 
 
-![App Screenshot 2](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/productss2.png) 
+![App Screenshot 2](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint3Documents/productss2.png) 
 
-![App Screenshot 3](https://github.com/gizemcobannnn/flutter_72/blob/0b21052fb0bf431c38f0beda3e457737265d539d/Bootcamp72Scrum-main/ProjectManagement/Sprint2Documents/productss3.png)
+![App Screenshot 3](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint3Documents/productss3.png)
+
+![App Screenshot 4](https://github.com/gizemcobannnn/flutter_72/blob/main/ProjectManagement/Sprint3Documents/productss4.png)
 
 ---
