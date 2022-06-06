@@ -1,0 +1,10 @@
+Gizem branchinde google ile giriş projesi tasarlandı. 
+Main branchinde uygulama tasarlandı.
+Giriş doğrulamasıyla entegre edilme işlemi zamanın kısıtlı olmasından dolayı yetiştirilemedi.
+Fakat ayrı ayrı da olsa tüm branch projeleri başarıyla çalıştırıldı.
+
+
+Not: Sümeyye Büşra Şanlı kişinin bu projede yardımı bulunmamaktadır.
+Akademinin bilgisine sunulur.
+
+Teşekkürler.
